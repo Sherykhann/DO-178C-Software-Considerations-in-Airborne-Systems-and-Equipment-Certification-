@@ -1,0 +1,2 @@
+In the context of DO-178C (Software Considerations in Airborne Systems and Equipment Certification), the development of software for an altitude measurement system would need to follow strict safety and verification procedures to ensure its correctness and reliability. 
+The example here will focus on a simple altitude calculation system, similar to how one would use a barometric sensor to calculate altitude.
