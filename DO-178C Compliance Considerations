@@ -1,0 +1,19 @@
+To comply with DO-178C, the following practices are essential:
+
+Traceability:
+
+Each piece of code must be traceable to a specific requirement. In our example, the comments within the code (e.g., Requirement 1: The system shall calculate the altitude based on a given barometric pressure) provide direct traceability.
+The test functions must also trace back to the requirements. In the test code, you can document which requirement each test is addressing.
+Modular Design:
+
+The code is designed to be modular by separating the altitude calculation into a single function. This makes the software easier to test and maintain.
+Unit Testing:
+
+DO-178C requires that 100% of code be tested (often with coverage analysis, such as statement, branch, and condition coverage). The provided unit tests ensure that the core functionalities of the system are tested.
+Review and Documentation:
+
+Documentation is required for each part of the process, including requirements specifications, design, test plans, test results, and code reviews.
+In practice, all these documents should be prepared and reviewed in accordance with DO-178C guidelines.
+Version Control and Configuration Management:
+
+Software artifacts (including the source code, requirements documents, test cases, and test results) must be version-controlled and managed in a way that allows traceability across the software development lifecycle.
