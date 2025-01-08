@@ -1,0 +1,24 @@
+We'll structure this example into:
+
+Requirement Specification
+C Code Implementation
+Unit Testing Example
+DO-178C Compliance Considerations
+
+1. Requirement Specification
+The first step in DO-178C compliance is ensuring traceability between the software and the requirements. For this example, we'll define the following requirements:
+
+Requirement 1: "The system shall calculate the altitude based on a given barometric pressure."
+
+Requirement 2: "If the pressure exceeds 1100 hPa, the system shall issue a warning that the pressure is too high to calculate altitude."
+
+Requirement 3: "The system shall trigger an alert if the altitude exceeds 40,000 feet."
+
+2. C Code Implementation
+The C code will include a simple function that calculates the altitude based on the barometric pressure. We’ll also include the logic for handling high pressure and altitude warnings.
+
+
+
+
+
+
